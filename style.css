@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width : 90vw;
+    min-height: 100vh;
+    font-family: monospace;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    outline: none;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    background-color: darkgray;
+    align-self: center;
+    margin-top: 100px;
+    position: sticky;
+    top:20%;
+    left:40%;
+}
+button:hover{
+    box-shadow: 0 0 30px 4px darkgrey;
+    cursor: pointer;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;    
+    height : 100%;
+}
+#ball-stack{
+    background-color: #f0ffff;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 100px;
+}
+.ball{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
